@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cageify Images (TS)",
+  "version": "1.0",
+  "description": "Replaces all images with Nicolas Cage (TypeScript version).",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/main.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

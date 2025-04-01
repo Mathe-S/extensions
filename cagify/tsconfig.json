@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true, // Enable strong type checking
+    "module": "ESNext", // Use modern JavaScript modules
+    "target": "ES2017", // Output modern JavaScript syntax
+    "outDir": "./dist", // Put compiled JS files in a 'dist' folder
+    "rootDir": "./src", // Look for TS source files in 'src'
+    "moduleResolution": "node", // Standard module resolution
+    "esModuleInterop": true, // Improve compatibility between module types
+    "forceConsistentCasingInFileNames": true // Avoid case sensitivity issues
+  },
+  "include": [
+    "./src/**/*" // Compile all .ts files within the src directory
+  ],
+  "exclude": [
+    "node_modules" // Don't try to compile dependencies
+  ]
+}
